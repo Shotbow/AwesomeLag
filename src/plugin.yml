@@ -1,0 +1,6 @@
+name: AwesomeLag
+main: net.shotbow.awesomelag.AwesomeLag
+version: 1.0
+description: AwesomeLag, a joint effort by lazertester and codename_b to eliminate lag everywhere
+authors: [lazertester,codename_b]
+depend: []
