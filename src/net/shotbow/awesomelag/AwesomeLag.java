@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
  * Time: 1:09 PM
  */
 public class AwesomeLag extends JavaPlugin implements Listener {
-    private Pattern lag = Pattern.compile("((?<= )(?i)(?:l|1|7)+(?:\\W|_)*(?:a|4)+(?:\\W|_)*g+(?:\\W|_)*(?:y|i|n|g|\\W)*|(?<!.)(?i)l+(?:\\W|_)*(?:a|4|)+(?:\\W|_)*g+(?:\\W|_)*(?:y|i|n|g|\\W)*)");
+    private Pattern lag = Pattern.compile("((?<= )(?i)(?:\\W|_)*(?:l|1|7)+(?:\\W|_)*(?:a|4)+(?:\\W|_)*g+(?:\\W|_)*(?:y|i|n|g|\\W)*|(?<!.)(?i)(?:\\W|_)*l+(?:\\W|_)*(?:a|4|)+(?:\\W|_)*g+(?:\\W|_)*(?:y|i|n|g|\\W)*)");
     private Pattern caps = Pattern.compile("^[A-Z]{2,}");
     private Random random = new Random();
 
